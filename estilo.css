@@ -1,0 +1,65 @@
+/* Especificidad: (0, 0, 1) */
+body {
+    font-family: "Lucida Console", sans-serif;
+    line-height: 2.2;
+    color: #000000;
+    background-color: aliceblue;
+}
+
+/* Especificidad: (0, 0, 1) */
+li {
+    list-style-type: upper-roman;
+}
+
+/* Especificidad: (0, 0, 1) */
+h1 {
+    height: 100%;
+    background-color:#5645f3; 
+    color: rgb(2, 0, 0);
+    text-transform: uppercase;
+    text-align: center;     
+}
+
+/* Especificidad: (0, 0, 1) */
+nav {
+    background-color: #dd98dd;
+    color: #000000;
+    font-size: 20px;
+}
+
+/* Especificidad: (0, 0, 1) */
+main {
+    background-color: aliceblue;
+    color: #000;
+}
+
+
+/* Especificidad: (0, 0, 1) */
+ul {
+    list-style-type: circle;
+}
+
+/* Especificidad: (0, 0, 1) */
+footer {
+   text-align: center;
+    color:#cc715d;
+    background-color: rgb(162, 192, 247);
+}
+
+
+/* Especificidad: (0, 0, 1) */
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+
+/* Especificidad: (0, 0, 1) */
+ th, td {
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }

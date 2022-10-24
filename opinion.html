@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Moisés García López">
+    <meta name="description" content="Primera práctica de HTML-CSS">
+    <meta name="keywords" content="características, html, laravel">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+    <header>
+        <h1>Laravel</h1>
+        
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="mas.html">Más</a>
+        <a href="">Opinión</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Tu opinión</h2>
+            <form>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre"><br>
+                <label for="password">Contraseña</label><br>
+                <input type="password" id="password"><br>
+                <label for="datetime-local">Fecha de nacimiento</label><br>
+                <input type="datetime-local" id="datetime-local"><br>
+                <label for="opinion">Escribe tu opinión sobre Laravel</label><br>
+                <input type="text" id="opinion"><br>
+
+                <fieldset>
+                    <legend>Selecciona una opción:</legend>
+                    <input type="radio" id="hombre" name="hombre" value="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="mujer" name="mujer" value="mujer">
+                    <label for="mujer">Mujer</label><br>
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        Página creada por Moisés García López
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="multimedia/HTML5.png" alt=" HTML5 Válido!"></a>
+    </footer>
+</body>
+
+</html>
