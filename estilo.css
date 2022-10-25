@@ -22,10 +22,12 @@ h1 {
 
 /* Especificidad: (0, 0, 1) */
 nav {
-    background-color: #dd98dd;
+    background-color: #e9a7e9;
     color: #000000;
+    font-weight: bold;
     font-size: 20px;
 }
+
 
 /* Especificidad: (0, 0, 1) */
 main {
