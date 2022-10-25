@@ -34,10 +34,7 @@ body {  display: grid;
 footer {
     padding-top: 1%;
 }
-footer img {
-    height: 45%;
-    width: 2%;
- }
+
 
 /* Especificidad: (0, 0, 1) */
 video {
